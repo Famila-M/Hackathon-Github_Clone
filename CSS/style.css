@@ -1,0 +1,49 @@
+body{
+    background: linear-gradient(to bottom, #ffffff 0%, #ccffff 100%);
+}
+
+.badge{
+    font-size: 12px; 
+    text-align: left; 
+    width: 300px; 
+}
+
+.landing-input-text{
+    border:1px solid #343a40;
+}
+
+.landing-input-text:focus{
+    box-shadow: none;
+    border:2px solid #343a40;
+}
+
+.hide{
+    display: none;
+}
+
+.nav-btns{
+    border-radius: 0;
+}
+
+.nav-btns:focus{
+    box-shadow: none;
+}
+
+.nav-btns:hover{
+    border-bottom: 2px solid rgba(0, 0, 0, 0.2);
+}
+
+.repo-name{
+    font-weight: bold;
+}
+
+.repo-name:hover{
+    text-decoration: underline;
+}
+
+
+@media screen and (max-width: 500px){
+    .nav-btns{
+        font-size: 10px;
+    }
+}
